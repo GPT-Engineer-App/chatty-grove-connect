@@ -1,14 +1,14 @@
-import { Home } from "lucide-react";
-import Index from "./pages/Index.jsx";
+import { MessageSquare } from "lucide-react";
+import DiscordClone from "./pages/DiscordClone.jsx";
 
 /**
  * Central place for defining the navigation items. Used for navigation components and routing.
  */
 export const navItems = [
   {
-    title: "Home",
+    title: "Discord Clone",
     to: "/",
-    icon: <Home className="h-4 w-4" />,
-    page: <Index />,
+    icon: <MessageSquare className="h-4 w-4" />,
+    page: <DiscordClone />,
   },
 ];
